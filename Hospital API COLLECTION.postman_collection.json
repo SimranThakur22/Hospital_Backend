@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "2e57c224-4ccb-4cc2-bb51-e0dfc960fb51",
+		"name": "Hospital API COLLECTION",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32508118"
+	},
+	"item": [
+		{
+			"name": "HospitalDetails",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://localhost:4000/psychiatristdetails/?id=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"psychiatristdetails",
+						""
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PatientDetails",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "patient",
+							"type": "file",
+							"src": "/Users/simranthakur/Downloads/pexels-simon-robben-55958-614810.jpg"
+						},
+						{
+							"key": "data",
+							"value": "{\n  \"name\":\"Martha  Clove\",\n  \"address\":\"jdhbjhdbhbsdbjsbdjhbjhsbfjhsfs\",\n  \"email\":\"martha@gmail.com\",\n  \"password\":\"lButqyagh\",\n  \"phone\":\"+91 1234567901\"\n}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:4000/patientdetails/?hospital_id=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"patientdetails",
+						""
+					],
+					"query": [
+						{
+							"key": "hospital_id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
