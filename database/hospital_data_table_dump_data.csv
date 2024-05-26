@@ -1,0 +1,113 @@
+id,name,psychiatrist_details
+1,"Apollo Hospitals","[
+    {
+        "id": 1,
+        "name": "DR. KRISHANA PURTY"
+    },
+    {
+        "id": 2,
+        "name": "DR. ALEX JOHNSON"
+
+    },
+    {
+        "id": 3,
+        "name": "DR. MARIA GARCIA"
+
+    },
+    {
+        "id": 4,
+        "name": "DR. LI WEI"
+      
+    },
+    {
+        "id": 5,
+        "name": "DR. JOHN SMITH"
+
+    }
+]"
+2,"Jawaharlal Nehru Medical College and Hospital","[
+ {
+        "id": 6,
+        "name": "DR. EMILY BROWN"
+   
+    },
+    {
+        "id": 7,
+        "name": "DR. DAVID CLARK"
+          
+    },
+    {
+        "id": 8,
+        "name": "DR. OLIVIA MARTINEZ"
+ 
+    },
+    {
+        "id": 9,
+        "name": "DR. MICHAEL LEWIS"
+      
+    },
+    {
+        "id": 10,
+        "name": "DR. JESSICA WILSON"
+    
+    }
+]"
+3,"Indira Gandhi Institute of Medical Sciences (IGIMS)","[
+ {
+        "id": 11,
+        "name": "DR. DANIEL WALKER"
+         
+    },
+    {
+        "id": 12,
+        "name": "DR. ASHLEY HALL"
+     
+    },
+    {
+        "id": 13,
+        "name": "DR. JAMES ALLEN"
+
+    },
+    {
+        "id": 14,
+        "name": "DR. ELIZABETH YOUNG"
+     
+    },
+    {
+        "id": 15,
+        "name": "DR. MATTHEW HERNANDEZ"
+
+    }
+]"
+4,"AIIMS - All India Institute Of Medical Science","[
+    {
+        "id": 16,
+        "name": "DR. AMANDA KING"
+  
+    },
+    {
+        "id": 17,
+        "name": "DR. JOSHUA WRIGHT"
+   
+    },
+    {
+        "id": 18,
+        "name": "DR. SARAH LOPEZ"
+ 
+    },
+    {
+        "id": 19,
+        "name": "DR. ANDREW HILL"
+        
+    },
+    {
+        "id": 20,
+        "name": "DR. KAREN SCOTT"
+
+    },
+    {
+        "id": 21,
+        "name": "DR. ROBERT GREEN"
+     
+    }
+]"
